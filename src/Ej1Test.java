@@ -22,7 +22,7 @@ public class Ej1Test {
         test.add(numero);
         test.add(1, numero2);
         assertEquals(test.indexOf(numero2), 1);
-        Ej1 test = new Ej1();
+        
             
     }
 
