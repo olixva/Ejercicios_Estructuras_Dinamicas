@@ -22,6 +22,7 @@ public class Ej1Test {
         test.add(numero);
         test.add(1, numero2);
         assertEquals(test.indexOf(numero2), 1);
+        Ej1 test = new Ej1();
             
     }
 
@@ -45,6 +46,7 @@ public class Ej1Test {
         assertEquals(true, test.contains(numero));
         test.remove(0);
         assertEquals(false, test.contains(numero));
+
     }
 
     @Test
@@ -56,6 +58,7 @@ public class Ej1Test {
         assertEquals(numero, test.get(0));
         test.add(numero2);
         assertEquals(numero2, test.get(1));
+
     }
 
     @Test
@@ -67,6 +70,7 @@ public class Ej1Test {
         test.add(numero);
         test.add(numero2);
         assertEquals(test.indexOf(numero2), 2);
+
     }
 
     @Test
@@ -76,6 +80,7 @@ public class Ej1Test {
         test.add(numero);
         assertEquals(numero, test.remove(0));
         assertEquals(false, test.contains(numero));
+
     }
 
     @Test
@@ -85,6 +90,7 @@ public class Ej1Test {
         test.add(numero);
         assertEquals(0, test.remove(numero));
         assertEquals(false, test.contains(numero));
+
     }
 
     @Test
