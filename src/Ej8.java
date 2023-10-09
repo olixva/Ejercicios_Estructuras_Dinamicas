@@ -1,10 +1,12 @@
+import java.util.Queue;
+
 //Lista dinamica basada en una cola
 public class Ej8 {
     // Atributos
     private Nodo primero; // Referencia a nodo
     private Nodo ultimo;
     protected int numElementos;
-
+};
     // Métodos
     /**
      * Constructor que inicializa los atributos al valor por defecto.
@@ -20,6 +22,8 @@ public class Ej8 {
         Object dato;
         Nodo siguiente;
     }
+
+    
 
     public void clear() {
         primero = null;
